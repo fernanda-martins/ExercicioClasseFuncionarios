@@ -1,2 +1,2 @@
 # ExercicioClasseFuncionarios
-Exercício para treinar o uso de super classe em Pyhthon
+Exercício para treinar o uso de super classe em Python
