@@ -50,7 +50,6 @@ gen2 = Gerente(200,'Marcelo Prado',1500)
 ven1 = Vendedor(300,'Mario Borges',1500) #comissao,nome,salario
 ven2 = Vendedor(50,'Carlos Cornélio',1500)
 
-#b)
 somaGen = gen1.salario + gen1.bonificacao + gen2.get_salario() + gen2.bonificacao
 
 somaVen = ven1.salario + ven1.comissao + ven2.salario + ven2.comissao
@@ -58,11 +57,8 @@ somaVen = ven1.salario + ven1.comissao + ven2.salario + ven2.comissao
 print(f'A diferença entre as classe é de R$', abs(somaGen-somaVen))
 #print(f'A diferença entre as classe é de R${abs(somaGen-somaVen)}')
 
-#c) e d):
 gv1 = GerenteVendas('Rove',1500,150,50,gerentes=[gen1],vendedores=[ven2]) #declara as listas gerentes e vendedores com []
 gv2 = GerenteVendas('Arnaldo',1500,150,50,gerentes=[gen2],vendedores=[ven1])
-
-#e)
 
 gerVend = [gv1,gv2] #pode colocar um unico for para todos os gv
 for gv in gerVend: #gv vai assumir no 1º for gv1 e tudo que ta associado a ele e depois gv2
